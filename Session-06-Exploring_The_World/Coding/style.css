@@ -1,0 +1,140 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  background-color: #e4d0d0;
+}
+.logo_container {
+  /* background-color: brown; */
+  width: 25%;
+  margin-left: 20px;
+}
+.logo {
+  width: 20%;
+}
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  font-size: large;
+  cursor: pointer;
+}
+.nav-items > ul > li .logout-btn,
+.nav-items > ul > li .login-btn {
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  margin-right: 15px;
+}
+
+.nav-items > ul > li .logout-btn {
+  background-color: var(--orange);
+}
+
+.nav-items > ul > li .login-btn {
+  background-color: var(--light-red);
+}
+
+.nav-items > ul > li .logout-btn:hover,
+.nav-items > ul > li .login-btn:hover {
+  background-color: var(--dark-green);
+}
+
+
+/* Body CSS */
+.search-container {
+  margin: 20px auto;
+  text-align: center;
+  max-width: 100%;
+  position: relative;
+}
+
+.search-container .search-input {
+  width: 40%;
+  box-sizing: border-box;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 14px 15px 14px 20px;
+  border: 1px solid #aabcca;
+  border-right: 0;
+  color: #000000;
+  outline: none;
+}
+
+.search-container .search-btn {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #0768b3;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  color: #ffffff;
+  padding: 15px 22px;
+  margin-left: -4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.search-container .search-btn:hover {
+  background-color: #016034;
+}
+
+.restaurant-list {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card > span {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card > span > h4 {
+  text-align: center;
+}
+
+.card > span > h4:first-child {
+  display: flex;
+  align-items: center;
+  background-color: rgb(239, 143, 17);
+  border-radius: 5px;
+  padding: 0 5px 0;
+  color: white;
+}
+
+.card > span > h4:first-child .fa-star {
+  font-size: small;
+  padding: 0 5px 3px 0;
+}
+
+.shimmer-card{
+  width: 200px;
+  height:200px;
+  background: red;
+  margin:20px;
+
+}
